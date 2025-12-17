@@ -1,21 +1,3 @@
-1. --Add information about a new teacher to the database and indicate that Nikitin is their curator.
-INSERT INTO Teacher (last_name, first_name, curator_id)
-VALUES ('X', 'Y', (select teacher_id from teacher where last_name = 'Nikitin'));
-
-2.-- Add data that the new teacher from the first task gives a course on Algebra at the Mathematical faculty for 100 hours.
-
-
-3. --Increase the duration of the "Probability Theory" course by 1.5 times.
-
-4. --Change the unit head in the unit 14 from Svetlana Vlasova to Pavel Kuznetsov.
-
-5. --Delete information about the teacher with the last name Petrov from the database (you need to delete information from all tables that refer to the record containing information about the teacher).
-
-6. --Increase the grade in higher mathematics by 1 point for all students of the Economic faculty.
-
-7. --Ensure that any course is taught by no more than two teachers on a faculty. If a course is taught by more than two teachers, leave the courses with shorter durations.
-
-
 /*
 1. Add information about a new teacher to the database 
 and indicate that Nikitin is their curator. 
